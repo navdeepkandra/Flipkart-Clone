@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height:70px;
+    background-color: #2874f0;
+    display: flex;
+    align-items: center;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 190px;
+    margin-left: 100px;
+}
+.logo{
+    background-image: url(flipkart_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 190px;
+    cursor: pointer;
+}
+.nav-search{
+    display: flex;
+    height:40px;
+    width: 35%;
+    background-color: pink;
+    margin-left: 25px;
+}
+.search-input{
+    width: 100%;
+    border: none;
+    font-size: 0.9rem;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.search-icon{
+    background-color: white;
+    width: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2874f0;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.login{
+    background-color: white;
+    width: 120px;
+    color: #2874f0;
+    font-weight: bolder;
+    height: 30px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    margin-left:25px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+}
+.become-seller{
+    cursor: pointer;
+}
+.more{
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    font-weight: bolder;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.cart{
+    margin-left: 50px;
+    padding-right: 3px;
+    cursor: pointer;
+}
+.shop-sec{
+    background-color: white;
+    display:flex;
+    justify-content: space-evenly;
+}
+.box{
+    height: 110px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_image {
+    background-size: cover;
+    height: 64px;
+    width: 64px;
+    margin-bottom: 7px;
+}
+.box_content p{
+    display: flex;
+    justify-content: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #212121;
+}
+.hero-sec{
+    background-image: url('bg_image.webp');
+    background-size: cover;
+    height: 280px;
+    /* width: 1680px; */
+    margin: 10px 10px 0px 10px;
+}
+body{
+    background-color: #99a2af72;
+}
+.shop{
+    display: flex;
+    justify-content: space-evenly;
+}
+.boxi{
+    /* border: 2px solid black; */
+    height: 250px;
+    width:20%;
+    margin: 10px 0px 10px 0px;
+    padding: 28px 10px 124px;
+    background-color: white;
+}
+.boxi1{
+    margin-left: 10px;
+    background-image: url('headphone.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.boxi2{
+    margin-right: 10px;
+}
+.box-img{
+    height: 190px;
+    width: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px 0px 30px 0px;
+}
+.best h1{
+    font-size: 2rem;
+    font-size: 400;
+    color: white;
+    padding: 25px 40px 0px 40px;
+}
+.view button{
+    color: white;
+    background-color: #2864f0;
+    font-size: 1.25rem;
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+.view{
+    height: 38px;
+    width: 95px;
+    padding: 25px 40px 120px 40px;
+}
+#tag{
+    font-size: 1rem;
+    font-weight: bold; 
+    padding: 20px 40px 10px 95px;
+    color: black;
+    margin-bottom: 10px;
+}
+#rate{
+    color: #388E3C;
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: 3px 40px 30px 85px;
+}
+.footpanel1{
+    background-color: #212121;
+    height: 235px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul{
+    padding-top: 40px;
+}
+ul p{
+    color: #878787;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+ul a{
+    display: block;
+    padding-top: 10px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.address p{
+    border-left: 1px solid white;
+    color: white;
+    padding: 2px 0px 0px 50px;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+#head{
+    color: #878787;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+.adress2 p{
+    color: white;
+    padding: 2px 0px 0px 50px;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+.footpanel2{
+    margin-top: 1px;
+    background-color: #212121;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    height: 73px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footpanel2 p{
+    cursor: pointer;
+}
+.footpanel2 i{
+    color: rgb(224, 188, 10);
+    padding-right: 2px;
+}
